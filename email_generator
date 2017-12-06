@@ -1,0 +1,30 @@
+#Author: LeVente Berry
+#Contact: levente.b03@gmail.com
+#Twitter: lou_216
+#Description: This python program allows the user to generate random email
+#address names for the major email servers (Yahoo, Gmail, Hotmail).
+#Date Created: 12/06/2017
+
+#Import Modules
+
+import sys
+import time
+import calendar
+import random
+
+#Create specific email list
+
+yahoo_list = []
+gmail_list = []
+hotmail_list = []
+
+#Create the empty list to be filled with email information.
+
+email_list = []
+
+#New email generation
+
+for i in email_list:
+    while len(email_list) < 100:
+        email_list.append()
+        
