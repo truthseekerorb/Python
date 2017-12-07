@@ -1,4 +1,4 @@
-#Author: LeVente Berry
+#Author: Hemlock
 #Contact: levente.b03@gmail.com
 #Twitter: lou_216
 #Description: This python program allows the user to generate random email
@@ -11,20 +11,31 @@ import sys
 import time
 import calendar
 import random
+import strings
+import os
+import path
 
 #Create specific email list
 
-yahoo_list = []
-gmail_list = []
-hotmail_list = []
+yahoo = 'yahoo.com'
+gmail = 'gmail.com'
+hotmail = 'hotmail.com'
 
 #Create the empty list to be filled with email information.
 
 email_list = []
 
-#New email generation
+#Define funtions
 
-for i in email_list:
-    while len(email_list) < 100:
-        email_list.append()
-        
+#Function for generating a random set of strings
+def generateEmail(size=9, chars=string.ascii_uppercase + string.digits):
+    for i in email_list:
+        while len(email_list) < 300:
+            return ''.join(random.choice(chars) for _ in range(size))
+            email_list.append(_ + yahoo)
+            email_list.append(_ + gmail)
+            email_list.append(_ + hotmail)
+            
+#New email generation
+generateEmail()
+
